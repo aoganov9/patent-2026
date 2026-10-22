@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Патент 2026–2027: инструкция для рабочих</title>
+<meta name="description" content="Простая инструкция: нужно ли оплачивать патент после отъезда из России, как вернуться в 2027 году без проблем. Актуально на октябрь 2026.">
+<style>
+:root{
+  --bg:#f6f6f3;
+  --card:#ffffff;
+  --ink:#1b1f24;
+  --muted:#5c6470;
+  --line:#e3e3dc;
+  --green:#0e7a43; --green-bg:#e9f6ee; --green-line:#bfe3cd;
+  --red:#c62f2f; --red-bg:#fceeee; --red-line:#f0c7c7;
+  --amber:#9a6b00; --amber-bg:#fdf6e3; --amber-line:#ecdcae;
+  --accent:#1f4f8f;
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  background:var(--bg);color:var(--ink);
+  font-size:17px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:720px;margin:0 auto;padding:0 18px}
+@media(min-width:900px){ body{font-size:18px} .wrap{max-width:860px} }
+
+/* ---------- top nav ---------- */
+nav{
+  position:sticky;top:0;z-index:50;background:rgba(246,246,243,.96);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+}
+nav .wrap{
+  display:flex;gap:6px;overflow-x:auto;padding:10px 34px 10px 14px;
+  scrollbar-width:none;position:relative;
+}
+nav .wrap::-webkit-scrollbar{display:none}
+nav .wrap:after{
+  content:"";position:absolute;top:0;right:0;bottom:0;width:34px;
+  background:linear-gradient(90deg,rgba(246,246,243,0),#f6f6f3 82%);
+  pointer-events:none;
+}
+nav a{
+  flex:0 0 auto;font-size:13.5px;font-weight:600;color:var(--muted);
+  text-decoration:none;padding:7px 12px;border-radius:999px;border:1px solid var(--line);
+  background:#fff;white-space:nowrap;
+}
+nav a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ---------- hero ---------- */
+header{padding:44px 0 8px}
+.kicker{
+  display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--accent);background:#eaf0f9;
+  border:1px solid #cfdcf0;border-radius:999px;padding:5px 12px;margin-bottom:16px;
+}
+h1{font-size:clamp(28px,7vw,40px);line-height:1.15;font-weight:800;letter-spacing:-.02em}
+h1 .thin{display:block;font-weight:500;color:var(--muted);font-size:.55em;margin-top:10px;letter-spacing:0}
+.verdict{
+  margin-top:22px;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--green);
+  border-radius:var(--radius);padding:18px 20px;font-size:18px;
+}
+.verdict b{color:var(--green)}
+.verdict .but{display:block;margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);color:var(--muted);font-size:15.5px}
+.updated{margin-top:14px;color:#3c434d;font-size:14px;font-weight:500}
+
+/* ---------- sections ---------- */
+section{padding:40px 0 6px;border-top:1px solid var(--line);margin-top:34px}
+section:first-of-type{border-top:none;margin-top:26px}
+.secnum{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:30px;height:30px;border-radius:9px;background:var(--ink);color:#fff;
+  font-weight:800;font-size:15px;margin-right:10px;flex:0 0 auto;
+}
+h2{font-size:clamp(21px,4.6vw,26px);line-height:1.25;font-weight:800;letter-spacing:-.01em;display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.lead{color:var(--muted);margin-bottom:18px}
+
+.cards{display:grid;gap:12px;margin:16px 0 6px}
+@media(min-width:680px){.cards.two{grid-template-columns:1fr 1fr}.cards.three{grid-template-columns:1fr 1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 16px}
+.card .big{font-size:21px;font-weight:800;letter-spacing:-.01em}
+.card p{color:var(--muted);font-size:15.5px;margin-top:6px}
+.price{color:var(--accent)}
+
+/* callouts */
+.note{border-radius:var(--radius);padding:18px 20px;margin:16px 0 6px;border:1px solid;font-size:16.5px}
+.note b{display:block;margin-bottom:4px;font-size:17.5px}
+.note.green{background:var(--green-bg);border-color:var(--green-line)}
+.note.green b{color:var(--green)}
+.note.red{background:var(--red-bg);border-color:var(--red-line)}
+.note.red b{color:var(--red)}
+.note.amber{background:var(--amber-bg);border-color:var(--amber-line)}
+.note.amber b{color:var(--amber)}
+.note p+p{margin-top:8px}
+
+/* compare */
+.compare{display:grid;gap:12px;margin:16px 0 6px}
+@media(min-width:680px){.compare{grid-template-columns:1fr 1fr}}
+.cmp{border-radius:var(--radius);padding:20px;border:1.5px solid}
+.cmp.bad{background:var(--red-bg);border-color:var(--red-line)}
+.cmp.good{background:var(--green-bg);border-color:var(--green-line)}
+.cmp .tag{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:14px;letter-spacing:.04em;text-transform:uppercase;padding:5px 12px;border-radius:999px;color:#fff;margin-bottom:12px}
+.cmp.bad .tag{background:var(--red)}
+.cmp.good .tag{background:var(--green)}
+.cmp h3{font-size:19px;font-weight:800;margin-bottom:6px}
+.cmp p{font-size:16px}
+.cmp .res{margin-top:12px;padding-top:12px;border-top:1px dashed rgba(0,0,0,.15);font-weight:700}
+.cmp.bad .res{color:var(--red)}
+.cmp.good .res{color:var(--green)}
+
+/* case study */
+.case{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:16px 0 6px}
+.case .who{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:10px}
+.timeline{list-style:none;margin-top:4px}
+.timeline li{position:relative;padding:0 0 16px 26px;font-size:16px}
+.timeline li:before{
+  content:"";position:absolute;left:6px;top:8px;width:9px;height:9px;border-radius:50%;
+  background:var(--accent);
+}
+.timeline li:after{content:"";position:absolute;left:10px;top:20px;bottom:-2px;width:1.5px;background:var(--line)}
+.timeline li:last-child:after{display:none}
+.timeline b{font-weight:800}
+.timeline .fin{color:var(--red);font-weight:700}
+
+/* scenarios */
+.scn{border-radius:var(--radius);padding:22px;margin:14px 0;border:1.5px solid var(--line);background:#fff}
+.scn.a{border-color:var(--green-line);background:linear-gradient(180deg,var(--green-bg),#fff 70%)}
+.scn.b{border-color:#cfdcf0;background:linear-gradient(180deg,#eaf0f9,#fff 70%)}
+.scn .ttl{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.scn h3{font-size:20px;font-weight:800}
+.scn .for{font-size:14px;font-weight:700;color:var(--muted)}
+.scn ul{margin:12px 0 0 18px;font-size:16px}
+.scn li+li{margin-top:8px}
+.scn .money{margin-top:14px;background:rgba(255,255,255,.75);border:1px dashed var(--line);border-radius:10px;padding:12px 14px;font-size:15px;color:var(--muted)}
+.scn .money b{color:var(--ink)}
+.ban{border:1.5px solid var(--red-line);background:var(--red-bg);border-radius:var(--radius);padding:20px;margin:14px 0}
+.ban b{color:var(--red);font-size:18px}
+.ban p{font-size:16px;margin-top:6px}
+.ladder{display:grid;gap:8px;margin-top:14px}
+@media(min-width:560px){.ladder{grid-template-columns:1fr 1fr 1fr}}
+.ladder div{background:#fff;border:1px solid var(--red-line);border-radius:10px;padding:10px 12px;text-align:center;font-size:14px}
+.ladder b{display:block;font-size:17px;color:var(--red)}
+
+/* checklist */
+.check{list-style:none;margin:16px 0 6px;display:grid;gap:10px}
+.check li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 52px;position:relative;font-size:16px}
+.check li:before{
+  content:"";position:absolute;left:16px;top:16px;width:22px;height:22px;border-radius:6px;
+  border:2px solid #b9b9b0;background:#fff;
+}
+.check b{display:block}
+
+/* steps */
+.steps{list-style:none;counter-reset:st;margin:16px 0 6px;display:grid;gap:12px}
+.steps li{counter-increment:st;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 16px 14px 62px;position:relative;font-size:16px}
+.steps li:before{
+  content:counter(st);position:absolute;left:16px;top:15px;width:32px;height:32px;border-radius:10px;
+  background:var(--accent);color:#fff;font-weight:800;font-size:16px;display:flex;align-items:center;justify-content:center;
+}
+.steps b{display:block;margin-bottom:2px}
+.steps .hint{color:var(--muted);font-size:14.5px;display:block;margin-top:4px}
+
+/* faq */
+details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden}
+details summary{
+  list-style:none;cursor:pointer;padding:16px 48px 16px 18px;position:relative;font-weight:700;font-size:16.5px;
+}
+details summary::-webkit-details-marker{display:none}
+details summary:after{
+  content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);
+  font-size:22px;font-weight:600;color:var(--muted);
+}
+details[open] summary:after{content:"–"}
+details .a{padding:0 18px 16px;color:var(--ink);font-size:16px}
+details .a b{color:var(--accent)}
+
+/* links block */
+.links{display:grid;gap:10px;margin:16px 0 6px}
+@media(min-width:560px){.links{grid-template-columns:1fr 1fr}}
+.link-card{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.link-card .u{font-weight:800;color:var(--accent);font-size:16px;word-break:break-all}
+.link-card p{font-size:14px;color:var(--muted);margin-top:2px}
+
+/* footer */
+footer{margin-top:44px;border-top:1px solid var(--line);padding:28px 0 60px;color:var(--muted);font-size:13.5px}
+footer .disc{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:16px;font-size:14.5px;color:var(--ink)}
+footer .src{margin-top:10px;color:#4d5560}
+
+/* reveal animation: отключена намеренно — контент обязан быть виден в любом вебвью без JS-задержек */
+.rv{opacity:1 !important;transform:none !important}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap">
+    <a href="#otvet">Ответ</a>
+    <a href="#kak">Как устроен</a>
+    <a href="#avto">Автоаннулирование</a>
+    <a href="#pravilo">Главное правило</a>
+    <a href="#keys">Реальный случай</a>
+    <a href="#stsenarii">Сценарии</a>
+    <a href="#cheklist">Перед отъездом</a>
+    <a href="#oplata">Оплата из дома</a>
+    <a href="#vozvrat">Возвращение 2027</a>
+    <a href="#faq">Вопросы</a>
+  </div>
+</nav>
+
+<header class="wrap">
+  <span class="kicker">Инструкция · для рабочих из Узбекистана</span>
+  <h1>Патент 2026–2027:
+    <span class="thin">платить или не платить после отъезда — и как вернуться без проблем</span>
+  </h1>
+  <div class="verdict rv">
+    <b>Платить патент «до конца года» не нужно.</b>
+    Такой обязанности в законе нет: патент оплачивается помесячно и только за те месяцы, пока вы в России.
+    <span class="but">Но есть важный нюанс: если просто перестать платить, патент аннулируют — и новый патент не выдадут целый год. Ниже объясняю, как сделать правильно.</span>
+  </div>
+  <p class="updated">Актуально на октябрь 2026 · Москва и Московская область</p>
+</header>
+
+<main class="wrap">
+
+<!-- 2 -->
+<section id="kak">
+  <h2><span class="secnum">1</span>Как устроен патент</h2>
+  <p class="lead">Три простых факта, из которых следует всё остальное.</p>
+  <div class="cards three">
+    <div class="card rv"><div class="big">10 000 ₽ <span style="font-size:14px;font-weight:600;color:var(--muted)">/ месяц</span></div><p>Ежемесячный платёж за патент в Москве и Московской области в 2026 году.</p></div>
+    <div class="card rv"><div class="big">Оплатил = действует</div><p>Патент действует ровно на оплаченный период. Заплатили до 30 ноября — действует до 30 ноября.</p></div>
+    <div class="card rv"><div class="big">Максимум 12 мес</div><p>Общий срок патента — не больше 12 месяцев со дня выдачи. Потом он заканчивается сам собой.</p></div>
+  </div>
+</section>
+
+<!-- 3 -->
+<section id="avto">
+  <h2><span class="secnum">2</span>Что изменилось с 10 августа 2026</h2>
+  <p class="lead">Правила стали строже — это важно знать каждому.</p>
+  <div class="note amber rv">
+    <b>⚠ Патент аннулируют автоматически</b>
+    <p>Теперь МВД аннулирует патент <b>без предупреждения и без участия человека</b> — компьютерный сервис, как только просрочен следующий ежемесячный платёж.</p>
+    <p>Сервис <b>не проверяет, в России вы или уже дома</b>. Не заплатил следующий месяц — патент аннулирован, даже если вы уехали.</p>
+  </div>
+</section>
+
+<!-- 4 -->
+<section id="pravilo">
+  <h2><span class="secnum">3</span>Главное правило: «аннулирован» ≠ «истёк»</h2>
+  <p class="lead">Это ключевая разница. От неё зависит, когда вам выдадут новый патент.</p>
+  <div class="compare">
+    <div class="cmp bad rv">
+      <span class="tag">Аннулирование</span>
+      <h3>Просрочили следующий платёж</h3>
+      <p>Не заплатили за следующий месяц вовремя — патент <b>аннулирован</b> (автоматически).</p>
+      <p class="res">Новый патент не выдадут 1 год со дня аннулирования — даже если вы уже уехали домой (закон 115-ФЗ, ст. 13.3, п. 24).</p>
+    </div>
+    <div class="cmp good rv">
+      <span class="tag">Естественное истечение</span>
+      <h3>Закончились 12 месяцев</h3>
+      <p>С даты выдачи патента прошло 12 месяцев — срок действия <b>истёк сам</b>.</p>
+      <p class="res">Никакого карантина нет. Новый патент можно оформлять сразу после приезда.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section id="keys">
+  <h2><span class="secnum">4</span>Реальный случай 2025–2026</h2>
+  <p class="lead">Не слухи — подтверждённая консультация юриста (март 2026).</p>
+  <div class="case rv">
+    <div class="who">Рабочий, Москва</div>
+    <ul class="timeline">
+      <li><b>26 ноября 2025</b> — уехал домой, в Узбекистан. Патент больше не оплачивал.</li>
+      <li><b>9 декабря 2025</b> — пришла СМС: патент аннулирован. <b>Уже после отъезда!</b></li>
+      <li><b>Февраль 2026</b> — вернулся в Россию, подал на новый патент.</li>
+      <li class="fin">Отказали: новый патент выдадут только 9 декабря 2026 — ровно год с даты аннулирования.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 6 -->
+<section id="stsenarii">
+  <h2><span class="secnum">5</span>Выберите свой сценарий</h2>
+  <p class="lead">Посмотрите в свой патент: когда он был выдан? От даты выдачи отсчитайте 12 месяцев — это его предел.</p>
+
+  <div class="scn a rv">
+    <div class="ttl"><h3>Сценарий А</h3><span class="for">— вернусь весной или летом 2027</span></div>
+    <ul>
+      <li>Продолжайте <b>платить из дома каждый месяц — без пропусков</b> — до конца 12-месячного срока патента.</li>
+      <li>Патент закончится сам, естественно. Аннулирования не будет → карантина не будет.</li>
+      <li>Бонус: если на день приезда старый патент ещё действует и оплачен — <b>можно работать сразу по нему</b>, без переоформления.</li>
+    </ul>
+    <div class="money">💰 Цена страховки: 2–5 платежей (20 000–50 000 ₽) — против потерянного сезона работы, который стоит в разы больше.</div>
+  </div>
+
+  <div class="scn b rv">
+    <div class="ttl"><h3>Сценарий Б</h3><span class="for">— вернусь не раньше конца 2027</span></div>
+    <ul>
+      <li>После выезда <b>не платите ничего</b> — долга за неуплату не бывает.</li>
+      <li>Патент аннулируют примерно через месяц после последнего оплаченного дня.</li>
+      <li>Новый патент — <b>через год с даты аннулирования</b>. Перед приездом обязательно проверьте дату (раздел «Возвращение»).</li>
+    </ul>
+  </div>
+
+  <div class="ban rv">
+    <b>⛔ Никогда не делайте так</b>
+    <p>Не оставайтесь в России дольше оплаченного периода патента. После аннулирования на выезд даётся <b>15 дней</b>. Каждый день просрочки — нелегальное пребывание:</p>
+    <div class="ladder">
+      <div><b>3 года</b>запрета на въезд — от 120 дней просрочки</div>
+      <div><b>5 лет</b>запрета — от 180 дней</div>
+      <div><b>10 лет</b>запрета — от 270 дней</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 -->
+<section id="cheklist">
+  <h2><span class="secnum">6</span>Чек-лист перед отъездом</h2>
+  <p class="lead">Пять пунктов — 10 минут. Снимите галочку мысленно, когда выполните.</p>
+  <ul class="check">
+    <li><b>Даты сходятся?</b> Последний оплаченный день патента не раньше даты вашего выезда.</li>
+    <li><b>Чеки сфотографированы.</b> Все чеки об оплате — в телефон. Они решают споры (подтверждено Верховным судом).</li>
+    <li><b>Патент сфотографирован</b> с двух сторон.</li>
+    <li><b>Дата выдачи записана.</b> От неё считается 12-месячный предел.</li>
+    <li><b>Работодатель уведомил МВД</b> о прекращении договора — 3 рабочих дня, штрафы до 1 млн ₽. Напомните ему.</li>
+  </ul>
+</section>
+
+<!-- 8 -->
+<section id="oplata">
+  <h2><span class="secnum">7</span>Как платить из Узбекистана</h2>
+  <p class="lead">Платить можно дистанционно — из дома, без приезда в Россию.</p>
+  <div class="links">
+    <a class="link-card" href="https://www.gosuslugi.ru/help/faq/foreign_patent/175220"><span class="u">gosuslugi.ru</span><p>Форма оплаты и продления патента на срок от 1 до 12 месяцев</p></a>
+    <a class="link-card" href="https://mc.mos.ru/service/payment"><span class="u">mc.mos.ru/service/payment</span><p>Оплата по серии и номеру патента (Москва и МО)</p></a>
+  </div>
+  <div class="note amber rv">
+    <b>⚠ Если платит другой человек</b>
+    <p>Родственник или знакомый может платить за вас по реквизитам. Но в платёжном документе обязательно должны быть <b>ваши полные данные: ФИО, дата рождения, ИНН</b>.</p>
+    <p>Без этого МВД не увидит платёж и аннулирует патент по ошибке (официальная рекомендация МВД, август 2026).</p>
+  </div>
+</section>
+
+<!-- 9 -->
+<section id="vozvrat">
+  <h2><span class="secnum">8</span>Возвращение в 2027: по шагам</h2>
+  <ol class="steps">
+    <li><b>За неделю до выезда — проверьте статус патента</b>
+      На сервисах МВД (по серии и номеру). Статус «истёк» — всё чисто. Статус «аннулирован» — отсчитайте год с даты аннулирования.
+      <span class="hint">сервисы.гувм.мвд.рф · для Москвы — servicesmmc.mos.ru</span>
+    </li>
+    <li><b>На границе: цель визита — «РАБОТА»</b>
+      Без этой отметки в миграционной карте патент не выдадут вообще.
+    </li>
+    <li><b>В течение 30 дней после въезда — подать документы на патент</b>
+      Срок сократили (раньше было 90 дней). Опоздали — штраф и проблемы с выдачей.
+    </li>
+    <li><b>В течение 7 рабочих дней — встать на миграционный учёт</b>
+      Регистрация по месту пребывания (после выезда она слетела — это нормально, делается заново).
+    </li>
+    <li><b>Дальше — платить каждый месяц вовремя</b>
+      Каждый следующий платёж — до окончания предыдущего оплаченного месяца.
+    </li>
+  </ol>
+</section>
+
+<!-- 10 -->
+<section id="faq">
+  <h2><span class="secnum">9</span>Частые вопросы</h2>
+  <details open>
+    <summary>Появится ли долг, если не платить после отъезда?</summary>
+    <div class="a"><b>Нет.</b> Платёж не начисляется задним числом. Просто патент аннулируют — и год не выдадут новый.</div>
+  </details>
+  <details>
+    <summary>Пустят ли в Россию, если патент аннулирован?</summary>
+    <div class="a"><b>Да.</b> Аннулирование патента — это не запрет на въезд. Въехать можно (до 90 суток суммарно в течение календарного года). Но работать без патента нельзя.</div>
+  </details>
+  <details>
+    <summary>Я выехал на пару недель домой. Патент аннулируется?</summary>
+    <div class="a"><b>Нет.</b> Пересечение границы само по себе патент не отменяет — пока он оплачен и 12 месяцев не истекли. Слетает только регистрация: после возвращения её нужно сделать заново за 7 рабочих дней.</div>
+  </details>
+  <details>
+    <summary>Как узнать дату аннулирования, если СМС не приходила?</summary>
+    <div class="a"><b>Через сервисы МВД</b> (статус патента по серии и номеру) или запросом в МВД: уведомление об аннулировании обязаны направить в течение 3 рабочих дней.</div>
+  </details>
+  <details>
+    <summary>Сколько стоит патент в 2027 году?</summary>
+    <div class="a"><b>Точно неизвестно.</b> Каждый год платёж индексируется (в 2026 — 10 000 ₽/мес для Москвы и МО). Точную сумму на 2027 год объявят в конце 2026 — проверяйте на Госуслугах или mc.mos.ru.</div>
+  </details>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="disc">
+      Инструкция носит справочный характер и не заменяет юридическую консультацию. Основано на Федеральном законе № 115-ФЗ «О правовом положении иностранных граждан в РФ» (в редакции 2025–2026 гг., изменения с 10.08.2026) и официальных разъяснениях МВД России.
+    </div>
+    <p class="src">Источники: МВД России · ФНС России · Госуслуги · закон 115-ФЗ (ст. 5, 13.3, 31) · определение Верховного Суда РФ № 5-АД25-54-К2 от 11.06.2025.</p>
+    <p class="src">Актуально на октябрь 2026 года. Перед принятием решений проверяйте статус своего патента на официальных сервисах.</p>
+  </div>
+</footer>
+
+<script>
+// active section highlight in nav
+var links = document.querySelectorAll('nav a');
+var map = {};
+links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+var obs = new IntersectionObserver(function(entries){
+  entries.forEach(function(e){
+    if(e.isIntersecting){
+      links.forEach(function(a){a.classList.remove('on')});
+      var a = map[e.target.id]; if(a) a.classList.add('on');
+    }
+  });
+},{rootMargin:'-25% 0px -65% 0px'});
+document.querySelectorAll('section[id]').forEach(function(s){obs.observe(s)});
+</script>
+</body>
+</html>
